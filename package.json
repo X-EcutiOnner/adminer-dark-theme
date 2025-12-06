@@ -19,7 +19,7 @@
     "gulp-postcss": "^9.0.1",
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
-    "node-sass": "^7.0.1"
+    "node-sass": "^9.0.0"
   },
   "scripts": {
     "build": "gulp build",
