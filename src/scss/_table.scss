@@ -46,14 +46,22 @@ table {
       &:hover {
         th,
         td {
-          background: #1c2636;
+          background: $table-row-hover;
         }
       }
     }
   }
 }
 
+.odds {
+  tbody {
+    tr:nth-child(2n) {
+      background: $odd-bg;
+    }
+  }
+}
+
 .js .checkable .checked td,
 .js .checkable .checked th {
-  background: #1c2636;
+  background: $table-row-checked;
 }
