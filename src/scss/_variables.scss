@@ -7,9 +7,20 @@ $scrollbar-width: 15px;
 $global-padding: 15px;
 $sidebar-width: 300px;
 
+$default-background: #131c29;
+$default-color: #ffffff;
+$default-secondary: #1c2636;
+
+$admin-dim: $default-secondary;
+$adminer-lit: $default-background;
+
 // Odd and even
-$odd-bg: #1c2636;
+$odd-bg: $default-secondary;
 
 // Tables
 $table-row-checked: #3b4b65;
 $table-row-hover: $table-row-checked;
+
+// Links
+$link-color: #63b7c0;
+$link-hover-color: #63b7c0;
