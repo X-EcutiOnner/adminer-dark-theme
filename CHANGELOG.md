@@ -1,5 +1,11 @@
 # Change Log
 
+## v5.0.0
+* Version strategy is new. Theme version ~ Adminer version.
+* Support Adminer v5
+* Code refactoring 
+* Dependencies update
+
 ## v0.3.0
 * Dependencies update
 * Renamed "sass" command to "build"

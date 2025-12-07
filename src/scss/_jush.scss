@@ -1,0 +1,31 @@
+//
+// Jush
+//
+
+.jush {
+  --text-color: $default-color;
+  --bg-color: $default-background;
+  --php-color: #003;
+  --string-color: green;
+  --string-plain-color: #009F00;
+  --keyword-color: #88e276;
+  --identifier-color: red;
+  --value-color: purple;
+  --number-color: #007F7F;
+  --attribute-color: teal;
+  --js-bg-color: #f0f0ff;
+  --css-bg-color: #ffffe0;
+  --php-bg-color: #fff0f0;
+  --php-sql-bg-color: #ffbbb0;
+
+  color: #63b7c0;
+
+  a {
+    color: #63b7c0;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

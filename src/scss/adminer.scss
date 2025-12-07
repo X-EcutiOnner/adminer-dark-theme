@@ -1,6 +1,6 @@
 /*!
  * Dark theme for Adminer
- * Copyright 2020 - 2022 Lukas Hron (https://www.lukashron.cz)
+ * Copyright 2020 - 2025 Lukas Hron (https://www.lukashron.cz)
  * Licensed under MIT
  */
 
@@ -12,11 +12,12 @@
 @import "headings";
 @import "table";
 @import "form";
-@import "button";
 @import "breadcrumb";
 @import "links";
 @import "code";
+@import "jush";
 @import "sqleditor";
 @import "menu";
+@import "menu.logout";
 @import "content";
 @import "footer";

@@ -1,6 +1,6 @@
 # Theme for Adminer
 
-Dark theme for [www.adminer.org](http://www.adminer.org/) database tool. Support Adminer 4.17.1 and lowest.
+Dark theme for [www.adminer.org](http://www.adminer.org/) database tool. Support Adminer v5.
 
 ![Screenshot](https://www.lukashron.cz/media/files/dark-theme-for-adminer.png)
 

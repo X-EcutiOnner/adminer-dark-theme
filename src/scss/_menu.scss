@@ -12,6 +12,15 @@
   background-color: #0d141f;
   @include defaultStyleBoxShadow;
 
+  #logo {
+    margin-bottom: 0;
+    padding-right: 5px;
+  }
+
+  .version {
+    color: #a62b6b;
+  }
+
   p {
     padding: 5px 0;
     margin: 0;

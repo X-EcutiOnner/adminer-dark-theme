@@ -1,8 +1,12 @@
 //
-// Buttons
+// Logout section
 //
 
 .logout {
+  margin: $global-padding;
+  background: transparent !important;
+  box-shadow: none !important;
+
   input[type="submit"] {
     border-color: #fb588b !important;
     background-color: #fb588b !important;

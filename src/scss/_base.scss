@@ -3,6 +3,11 @@
 //
 
 html {
+  --bg: $default-background;
+  --fg: $default-color;
+  --dim: $admin-dim;
+  --lit: $adminer-lit;
+
   font-size: 14px;
   min-height: 100%;
   -ms-text-size-adjust: 100%;
@@ -23,21 +28,21 @@ body {
   font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
-  color: #ffffff;
-  background-image: linear-gradient(#131c29, #0c1018);
+  color: $default-color;
+  background-image: linear-gradient($default-background, #0c1018);
   @include scrollbar;
 }
 
 a {
   font-weight: 400;
-  color: #63b7c0;
+  color: $link-color;
   text-decoration: none;
 
   &:hover,
   &:link:hover,
   &:visited,
   &:visited:hover {
-    color: #63b7c0;
+    color: $link-hover-color;
     font-weight: 400;
     text-decoration: underline;
   }
@@ -50,7 +55,7 @@ p {
 
 fieldset {
   border-radius: 3px;
-  border-color: #1c2636;
+  border-color: $odd-bg;
 }
 
 .error,
@@ -69,8 +74,4 @@ fieldset {
 .message {
   color: #155724;
   background-color: #d4edda;
-}
-
-#version {
-  color: #a62b6b;
 }
